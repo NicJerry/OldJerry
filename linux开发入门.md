@@ -86,14 +86,14 @@
          sudo vim /etc/profile
          
          
-         // 往文件后方填入如下内容:
+         往文件后方填入如下内容:
             export GRADLE_HOME=/media/ljc/dev/backup/gradle-5.3-all/gradle-5.3
 			export PATH=${GRADLE_HOME}/bin:${PATH}
 
-         // 此处"GRADLE_HOME="后方路径为个人复制的jdk文件夹地址,仅供参考
-         // 检查无误后,按Esc键,进入退出模式
-         // Shift+: 键,调出":"光标
-         // 在":"后输入"wq"后回车(不想保存或重新编辑则输入"q!"之后回车)
+         此处"GRADLE_HOME="后方路径为个人复制的jdk文件夹地址,仅供参考
+         检查无误后,按Esc键,进入退出模式
+         Shift+: 键,调出":"光标
+         在":"后输入"wq"后回车(不想保存或重新编辑则输入"q!"之后回车)
          
             source /etc/profile (报错没有权限时前方加sudo)
             
