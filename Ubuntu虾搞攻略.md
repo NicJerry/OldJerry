@@ -74,11 +74,9 @@ deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe
-multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe
-multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
 deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
@@ -92,7 +90,7 @@ apt upgrade      更新软件
 没得输入法，怎么能在linux的环境里口吐芬芳呢？
 
 ```
-apt install f citx -y
+apt install fcitx -y
 ```
 
 装完之后，在设置的Region & Language选项中把Keyboard input method system改为fcitx
@@ -228,7 +226,7 @@ Type=Application
 
      ```
      sudo apt update && sudo apt upgrade apt update && sudo apt upgrade
-     sudo apt install ubuntu-budgie-desktop apt install ubuntu-budgie-desktop
+     sudo apt install ubuntu-budgie-desktop
      ```
 
      下载完成后，你将看到选择显示管理器的提示。选择 “lightdm” 以获得完整的 Budgie 体验。
